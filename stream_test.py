@@ -4,7 +4,7 @@ import boto3
 import time
 
 nodes_file = 'nodes.csv'
-stream_name = 'to-neptune-test'
+stream_name = ''
 time_delay = 0.2
 
 
