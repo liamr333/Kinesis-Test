@@ -4,7 +4,7 @@ import boto3
 import time
 
 nodes_file = 'nodes.csv'
-stream_name = ''
+stream_name = ''    # put your stream name here
 time_delay = 0.2
 
 
