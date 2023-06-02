@@ -28,7 +28,7 @@ def get_json_record(node_id, label, first_name, last_name, date):
 
 def put_record(json_record):
 	response = client.put_record(
-		StreamName = steam_name,
+		StreamName = stream_name,
 		Data = json_record,
 		PartitionKey = json_record['~id']
 	)
